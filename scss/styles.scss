@@ -59,28 +59,6 @@
         grid-template-rows: 100;
     }
 
-    .fraseInspiracional {
-        @include texto;
-        display: none;   
-        grid-template-columns: 470px;
-        grid-template-rows: 550px;
-    }
-    .frase {
-        @include texto;
-        font-family: 'Fuggles';
-        text-align: center;
-        margin-top: 5%;
-        margin-left: 5%;
-        width: 250px;
-        padding-top: 100px;
-    }
-
-    .imgFrase {
-        display: none;
-        width: 300px;
-        height: 200px;
-        margin-bottom: 5%;
-    }
 
     .grid {
         display: grid;   
@@ -173,25 +151,6 @@
         display: none;   
         grid-template-columns: 365px 235px;
         grid-template-rows: 270px 270px;
-    }
-
-    .fraseInspiracional {
-        display: none;   
-        grid-template-columns: 550px;
-        grid-template-rows: 750px;
-    }
-    .frase {
-        @include texto;
-        margin-top: 8%;
-        margin-left: 5%;
-        width: 250px;
-        padding-top: 100px;
-    }
-
-    .imgFrase {
-        width: 350px;
-        height: 250px;
-        margin-bottom: 5%;
     }
 
     .grid {
@@ -324,24 +283,6 @@
         grid-template-rows: 300px 300px;
     }
     
-    .fraseInspiracional {
-        display: grid;   
-        grid-template-columns: 670px 670px;
-        grid-template-rows: 300px 300px;
-    }
-    
-    .frase {
-        @include texto;
-        text-align: center;
-        margin-bottom: 10%;
-        margin-left: 5%;
-        width: 500px;
-    }
-    
-    .imgFrase {
-        width: 650px;
-        height: 550px;
-    }
     
     .imgPillow {
         width: 850px;
