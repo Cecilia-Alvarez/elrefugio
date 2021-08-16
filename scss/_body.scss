@@ -1,3 +1,77 @@
+@import "mixins";
+
 .body {
     background-color: white;
+}
+
+@media only screen and (max-width: 600px) { 
+    
+.text-block {
+    @include animation;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font: {
+        family: 'Fuggles';
+        size: 2.5rem;
+        weight: bolder;
+        style: italic;
+        }
+    text-align: center;
+    bottom: 20%;
+    right:2%;
+}
+
+.text-center {
+    @include animation;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font: {
+        family: 'Fuggles';
+        size: 2.5rem;
+        weight: bolder;
+        style: italic;
+        }
+    bottom: 15%;
+    right:17%;
+}
+
+@media only screen and (min-width: 600px) {
+          
+    .text-block {
+        @include animation;
+        position: absolute;
+        text-align: center;
+        color: white;
+        font: {
+            family: 'Fuggles';
+            size: 4.0rem;
+            weight: bolder;
+            style: italic;
+            }
+        text-align: center;
+        bottom: 20%;
+        right:2%;
+    }
+
+    .text-center {
+        @include animation;
+        position: absolute;
+        text-align: center;
+        color: white;
+        font: {
+            family: 'Fuggles';
+            size: 4.0rem;
+            weight: bolder;
+            style: italic;
+            }
+        bottom: 25%;
+        right:23%;
+    }
+}
+
+@media only screen and (min-width: 1024px)  {
+
+}
 }

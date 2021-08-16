@@ -1,10 +1,11 @@
-@media only screen and (max-width: 478px) {
+@media only screen and (max-width: 600px) {
 footer {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
     height: 25%;
+    padding-top: 5%;
     background-color:  red;
 }
 
@@ -22,6 +23,7 @@ footer {
 .redes {
     width: 45px;
     height: 45px;
+    padding-bottom: 5%;
 }
 
 .redSocial {
@@ -38,6 +40,7 @@ footer {
         justify-content: space-around;
         width: 100%;
         height: 10%;
+        padding-top: 5%;
         background-color:  red;
     }
     
@@ -57,6 +60,7 @@ footer {
     .redes {
         width: 50px;
         height: 50px;
+        padding-bottom: 5%;
     }
     
     .redSocial {
@@ -74,6 +78,7 @@ footer {
         justify-content: space-around;
         width: 100%;
         height: 10%;
+        padding-top: 2%;
         background-color:  red;
     }
 
@@ -92,6 +97,7 @@ footer {
     .redes {
         width: 50px;
         height: 50px;
+        padding-bottom: 5%;
     }
     
     .redSocial {
